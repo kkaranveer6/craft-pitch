@@ -1,60 +1,30 @@
 @extends('layout')
 
 @section('head')
-  <title>Home</title>
+  <title>Services</title>
 @endsection
 
 @section('body')
-  <!--Swiper-->
-  <section class="section-lg bg-default section-decoration-6"> 
+  <!-- Breadcrumbs-->
+  <section class="breadcrumbs-custom bg-gray-200" data-preset='{"title":"Breadcrumbs","category":"header","reload":false,"id":"breadcrumbs"}'>
     <div class="container">
-      <div class="row row-50 align-items-lg-center justify-content-lg-between">
-        <div class="col-lg-6 order-lg-2">
-          <div class="animate-box">
-            <div class="wow slideInRight" data-wow-delay="0.1s"> <img src="images/home-8-584x472.png" alt="" width="584" height="472"/>
-            </div>
-          </div>
+      <div class="row row-10 align-items-center">
+        <div class="col-md-7 text-left">
+          <div class="breadcrumbs-custom-title">Services</div>
         </div>
-        <div class="col-lg-6 col-xl-5 order-lg-1">
-          <div class="animate-box">
-            <h1 class="wow slideInLeft" data-wow-delay="0.2s">Our creativity is your success</h1>
-            <p class="wow slideInLeft" data-wow-delay="0.3s">We break all boundaries if they happen on our way of project’s development!</p>
-          </div>
-          <div class="button-group wow fadeIn" data-wow-delay="0.35s"><a class="button button-primary button-shadow" href="services.html">Learn More</a><a class="button-link button-video" href="https://www.youtube.com/embed/-AhmuMqZB0s" data-lightgallery="item"> <span>watch video</span><span class="icon fa-play"></span></a></div>
+        <div class="col-md-5">
+          <ul class="breadcrumbs-custom-path">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Services</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-  <!-- Section about-->
-  <section class="section-lg bg-default">
+  <section class="bg-default section-lg section-decoration-1 section-decoration-1-mode">
     <div class="container">
-      <div class="row row-30 align-items-lg-center">
-        <div class="col-lg-7 text-center text-lg-left">
-          <div class="animate-box">
-            <div class="wow slideInLeft" data-wow-delay="0.1s"><img src="images/home-2-563x509.png" alt="" width="563" height="509"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 col-xl-5">
-          <div class="animate-box">
-            <h2 class="wow slideInRight" data-wow-delay="0.2s">Creative challenges are our passion</h2>
-            <p class="wow slideInRight" data-wow-delay="0.3s">Our  designers and developers work closely together to build a creative and positive working environment. Functionality is as important to us as aesthetics.</p>
-          </div>
-          <div class="button-block group-lg wow fadeIn" data-wow-delay="0.4s"> <a class="button button-primary button-shadow" href="about-us.html">Read More</a><a class="button button-default-outline" href="contacts.html">Contact us</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- services-->
-  <section class="section-lg bg-default section-decoration-2 section-decoration-2-mode">
-    <div class="container">
-      <div class="block-sm animate-box text-center text-md-left ml-md-0">
-        <div class="wow fadeInDown">
-          <h2>We provide a wide range <br class="d-none d-sm-inline">of creative services</h2>
-        </div>
-      </div>
       <div class="row row-30">
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="34" viewbox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +36,7 @@
             <p>A great brand combines design and messaging to evoke emotion in your customers and drive strategy.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="26" viewbox="0 0 36 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +49,7 @@
             <p>Rich experience plus unlimited imagination create our successful service discovered by clients.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +61,7 @@
             <p>Creating and handling professional video is our strong point. It plays a major role in your digital business strategy.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="32" viewbox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +75,7 @@
             <p>We provide everything your site needs to perform at its highest capabilities on the major search engines.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +87,7 @@
             <p>With digital marketing, your business can expand into new areas and achieve tremendous accomplishments.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+        <div class="col-sm-6 col-lg-4">
           <div class="box-icon-classic">
             <div class="icon-main">
               <svg width="36" height="32" viewbox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -128,300 +98,32 @@
             <p>Turn your data into captivating artwork that will keep your audience engaged. Our team can help you with it.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- contact us-->
-  <section class="bg-default section-lg">
-    <div class="container">
-      <div class="row row-50 align-items-lg-center">
-        <div class="col-lg-7 text-center order-lg-2">
-          <div class="animate-box">
-            <div class="block-img-decoration wow slideInRight"><img src="images/home-7-423x565.png" alt="" width="423" height="565"/>
+        <div class="col-sm-6 col-lg-4">
+          <div class="box-icon-classic">
+            <div class="icon-main">
+              <svg width="38" height="32" viewbox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.3704 0C36.2407 0 36.8037 0.781512 37.5074 2.62884C37.8593 3.48147 38 4.33409 38 5.25775V6.39454C38 8.31291 37.6481 10.8707 36.5926 13.5707L31.3852 29.344C31.1037 30.1255 30.5407 30.6939 29.8371 30.9781C28.5 31.6886 27.3037 30.9071 26.7407 29.5571L21.8148 15.6312L17.1704 29.5571C16.6074 31.3334 14.7778 32.3281 13.0185 31.9018C11.8926 31.6176 10.9778 30.7649 10.5555 29.6282L1.83496 5.4146C1.6922 5.38786 1.54967 5.35926 1.40741 5.32879C0.633306 5.32879 0 4.68929 0 3.90778C0 3.12619 0.633306 2.48676 1.40741 2.48676C3.72964 2.98411 6.12223 2.98411 8.44446 2.48676C9.21856 2.48676 9.85187 3.12619 9.85187 3.90778C9.85187 4.68929 9.21849 5.32879 8.44446 5.32879C7.72313 5.48328 6.99503 5.58978 6.26435 5.64829C6.66728 5.62359 7.06653 5.58766 7.45928 5.54191L14.7778 26.1466L19 13.4996L15.9741 5.54191C16.9427 5.65057 17.9297 5.70382 18.9256 5.70169C17.543 5.69739 16.1604 5.57309 14.7778 5.32879C14.0037 5.32879 13.3704 4.68936 13.3704 3.90778C13.3704 3.12619 14.0037 2.48676 14.7778 2.48676C17.5926 2.98411 20.4074 2.98411 23.2222 2.48676C23.9963 2.48676 24.6296 3.12619 24.6296 3.90778C24.6296 4.68929 23.9963 5.32879 23.2222 5.32879C22.4938 5.4575 21.7653 5.55291 21.0369 5.615C21.2961 5.59433 21.5554 5.56997 21.8148 5.54191L28.8519 25.5782L31.8778 16.6258C32.1593 15.4179 32.3704 14.4232 32.3704 13.4995C32.3704 11.3385 31.8324 10.2639 31.142 8.88493C31.0833 8.76777 31.0236 8.64842 30.9629 8.52603C30.6977 7.9457 30.3907 7.39342 30.0945 6.86036C29.4477 5.69663 28.8519 4.62455 28.8519 3.5525C28.8519 1.42102 30.5407 0 32.3704 0Z"></path>
+              </svg>
             </div>
+            <h4 class="box-icon-title"><a href="single-service.html">Content Management</a></h4>
+            <p>We help you  organize your content on the website, to engage more visitors and potential clients.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="animate-box">
-            <h2 class="wow slideInLeft" data-wow-delay="0.15s">If you have any questions, please contact us</h2>
-            <p class="wow slideInLeft" data-wow-delay="0.25s">Our professional support team try to do their best to provide you with high-quality consultations concerning any questions about our services.</p>
-          </div>
-          <div class="button-block group-lg wow fadeIn" data-wow-delay="0.35s"><a class="button button-primary button-shadow" href="about-us.html">Read More</a><a class="button button-default-outline" href="contacts.html">Get in Touch</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- section counter-->
-  <section class="section-md bg-secondary section-decoration-5">
-    <div class="decoration-element"></div>
-    <div class="container">
-      <div class="row row-50 align-items-lg-center">
-        <div class="col-lg-6">
-          <div class="row row-30 fadeInUp">
-            <div class="col-sm-6">
-              <!-- Counter-->
-              <div class="box-counter-classic">
-                <div class="box-counter-inner">
-                  <div class="counter heading-1">1880</div>
-                  <div class="counter-postfix heading-1">+</div>
-                </div>
-                <p>Projects completed by our team of web designers and developers</p>
-              </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="box-icon-classic">
+            <div class="icon-main">
+              <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.8359 23.2734H31.7812V22.2188C31.7812 20.4741 30.3619 19.0547 28.6172 19.0547H19.0547V16.9453C20.0457 16.9453 21.2309 16.9453 22.2188 16.9453C22.8012 16.9453 23.2734 16.4731 23.2734 15.8906C23.2734 15.3082 22.8012 14.8359 22.2188 14.8359H21.1641V12.7266H24.3281C26.0728 12.7266 27.4922 11.3072 27.4922 9.5625V3.16406C27.4922 1.4194 26.0728 0 24.3281 0H11.6719C9.92721 0 8.50781 1.4194 8.50781 3.16406V9.5625C8.50781 11.3072 9.92721 12.7266 11.6719 12.7266H14.8359V14.8359H13.7812C13.1988 14.8359 12.7266 15.3082 12.7266 15.8906C12.7266 16.4731 13.1988 16.9453 13.7812 16.9453C14.7691 16.9453 15.9543 16.9453 16.9453 16.9453V19.0547H7.38281C5.63815 19.0547 4.21875 20.4741 4.21875 22.2188V23.2734H3.16406C1.4194 23.2734 0 24.6928 0 26.4375V28.5469C0 30.2915 1.4194 31.7109 3.16406 31.7109H4.21875V33.8906H3.16406C2.58159 33.8906 2.10938 34.3628 2.10938 34.9453C2.10938 35.5278 2.58159 36 3.16406 36H7.38281C7.96528 36 8.4375 35.5278 8.4375 34.9453C8.4375 34.3628 7.96528 33.8906 7.38281 33.8906H6.32812V31.7109H7.38281C9.12748 31.7109 10.5469 30.2915 10.5469 28.5469V26.4375C10.5469 24.6928 9.12748 23.2734 7.38281 23.2734H6.32812V22.2188C6.32812 21.6372 6.80126 21.1641 7.38281 21.1641H16.9453V23.2734H15.8906C14.146 23.2734 12.7266 24.6928 12.7266 26.4375V28.5469C12.7266 30.2915 14.146 31.7109 15.8906 31.7109H16.9453V33.8906H15.8906C15.3082 33.8906 14.8359 34.3628 14.8359 34.9453C14.8359 35.5278 15.3082 36 15.8906 36H20.1094C20.6918 36 21.1641 35.5278 21.1641 34.9453C21.1641 34.3628 20.6918 33.8906 20.1094 33.8906H19.0547V31.7109H20.1094C21.854 31.7109 23.2734 30.2915 23.2734 28.5469V26.4375C23.2734 24.6928 21.854 23.2734 20.1094 23.2734H19.0547V21.1641H28.6172C29.1987 21.1641 29.6719 21.6372 29.6719 22.2188V23.2734H28.6172C26.8725 23.2734 25.4531 24.6928 25.4531 26.4375V28.5469C25.4531 30.2915 26.8725 31.7109 28.6172 31.7109H29.6719V33.8906H28.6172C28.0347 33.8906 27.5625 34.3628 27.5625 34.9453C27.5625 35.5278 28.0347 36 28.6172 36H32.8359C33.4184 36 33.8906 35.5278 33.8906 34.9453C33.8906 34.3628 33.4184 33.8906 32.8359 33.8906H31.7812V31.7109H32.8359C34.5806 31.7109 36 30.2915 36 28.5469V26.4375C36 24.6928 34.5806 23.2734 32.8359 23.2734ZM7.38281 25.3828C7.96437 25.3828 8.4375 25.8559 8.4375 26.4375V28.5469C8.4375 29.1284 7.96437 29.6016 7.38281 29.6016H3.16406C2.58251 29.6016 2.10938 29.1284 2.10938 28.5469V26.4375C2.10938 25.8559 2.58251 25.3828 3.16406 25.3828H7.38281ZM11.6719 10.6172C11.0903 10.6172 10.6172 10.1441 10.6172 9.5625V3.16406C10.6172 2.58251 11.0903 2.10938 11.6719 2.10938H24.3281C24.9097 2.10938 25.3828 2.58251 25.3828 3.16406V9.5625C25.3828 10.1441 24.9097 10.6172 24.3281 10.6172C21.7941 10.6172 14.1969 10.6172 11.6719 10.6172ZM20.1094 25.3828C20.6909 25.3828 21.1641 25.8559 21.1641 26.4375V28.5469C21.1641 29.1284 20.6909 29.6016 20.1094 29.6016H15.8906C15.3091 29.6016 14.8359 29.1284 14.8359 28.5469V26.4375C14.8359 25.8559 15.3091 25.3828 15.8906 25.3828H20.1094ZM16.9453 14.8359V12.7266H19.0547V14.8359H16.9453ZM33.8906 28.5469C33.8906 29.1284 33.4175 29.6016 32.8359 29.6016H28.6172C28.0356 29.6016 27.5625 29.1284 27.5625 28.5469V26.4375C27.5625 25.8559 28.0356 25.3828 28.6172 25.3828H32.8359C33.4175 25.3828 33.8906 25.8559 33.8906 26.4375V28.5469Z"></path>
+              </svg>
             </div>
-            <div class="col-sm-6">
-              <!-- Counter-->
-              <div class="box-counter-classic">
-                <div class="box-counter-inner">
-                  <div class="counter heading-1">56</div>
-                </div>
-                <p>Experts in web design, branding, and digital marketing solutions.</p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <!-- Counter-->
-              <div class="box-counter-classic">
-                <div class="box-counter-inner">
-                  <div class="counter heading-1">2000</div>
-                  <div class="counter-postfix heading-1">+</div>
-                </div>
-                <p>Customers who were satisfied with our work.</p>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <!-- Counter-->
-              <div class="box-counter-classic">
-                <div class="box-counter-inner">
-                  <div class="counter heading-1">100</div>
-                  <div class="counter-postfix heading-1">%</div>
-                </div>
-                <p>Positive reviews sent by our first-time and regular customers.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-xl-5 pl-lg-5">
-          <div class="animate-box">
-            <h2 class="wow slideInRight">Why choose our company for your projects?</h2>
-            <p class="wow slideInRight" data-wow-delay="0.2s">We are a team of professional and enthusiastic people, who like what they do and are always in the process of growing and improving their skills.</p>
-            <div class="button-block wow fadeInUp" data-wow-delay="0.3s"><a class="button button-default-outline wow fadeInUp" href="services.html">Get a Quote</a></div>
+            <h4 class="box-icon-title"><a href="single-service.html">E-Mail Marketing</a></h4>
+            <p>Our e-mail marketing services allow you to reach out to your customers quickly, easily, and efficiently.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Work plan-->
-  <section class="section-lg bg-default section-decoration-4">
-    <div class="decoration-img"><img src="images/section-decorate-img-3.png" alt=""></div>
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-sm-9 col-lg-7 col-xl-5">
-          <div class="animate-box text-center text-md-left">
-            <div class="wow fadeInDown">
-              <h2>Our work process</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row row-30 justify-content-center align-items-md-center">
-        <div class="col-md-5 col-lg-4 text-center">
-          <div class="animate-box">
-            <div class="wow slideInLeft" data-wow-delay="0.2s"><img src="images/home-3-234x264.png" alt="" width="234" height="264"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-6">
-          <div class="wow fadeIn" data-wow-delay="0.35s">
-                  <div class="box-numeric unit unit-spacing-lg flex-column flex-sm-row">
-                    <div class="unit-left">
-                      <div class="box-numeric-num"><span>01</span></div>
-                    </div>
-                    <div class="unit-body">
-                      <h4>Meeting With The Customer</h4>
-                      <p>The first meeting is very important to get acquainted and discuss the main ideas of the project.</p>
-                    </div>
-                  </div>
-          </div>
-          <div class="arrow-block arrow-1 wow fadeIn" data-wow-delay="0.45s"><img src="images/arrow-1-152x146.png" alt="" width="152" height="146"/>
-          </div>
-        </div>
-      </div>
-      <div class="row row-30 align-items-md-center justify-content-md-end">
-        <div class="col-md-5 col-lg-4 order-md-2 text-center">
-          <div class="animate-box">
-            <div class="wow slideInRight" data-wow-delay="0.6s"><img src="images/home-4-279x267.png" alt="" width="279" height="267"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-6 col-xl-5 order-md-1">
-          <div class="wow fadeIn" data-wow-delay="0.8s">
-                  <div class="box-numeric unit unit-spacing-lg flex-column flex-sm-row">
-                    <div class="unit-left">
-                      <div class="box-numeric-num"><span>02</span></div>
-                    </div>
-                    <div class="unit-body">
-                      <h4>We Consider And Analyze The Work Plan</h4>
-                      <p>When we understand the main ideas, we proceed to discuss the work plan and analyze it.</p>
-                    </div>
-                  </div>
-          </div>
-          <div class="arrow-block arrow-2 wow fadeIn" data-wow-delay="0.9s"><img src="images/arrow-2-236x150.png" alt="" width="236" height="150"/>
-          </div>
-        </div>
-      </div>
-      <div class="row row-30 justify-content-center align-items-md-center">
-        <div class="col-md-5 col-lg-5 text-center">
-          <div class="animate-box">
-            <div class="wow slideInLeft" data-wow-delay="1s"><img src="images/home-5-356x206.png" alt="" width="356" height="206"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-6">
-          <div class="wow fadeIn" data-wow-delay="1.2s">
-                  <div class="box-numeric unit unit-spacing-lg flex-column flex-sm-row">
-                    <div class="unit-left">
-                      <div class="box-numeric-num"><span>03</span></div>
-                    </div>
-                    <div class="unit-body">
-                      <h4>Work Hard On The Project</h4>
-                      <p>Our professional team starts to work on your project and embody all details of the initial concept.</p>
-                    </div>
-                  </div>
-          </div>
-          <div class="arrow-block arrow-3 wow fadeIn" data-wow-delay="1.3s"><img src="images/arrow-3-281x166.png" alt="" width="281" height="166"/>
-          </div>
-        </div>
-      </div>
-      <div class="row row-30 justify-content-md-end align-items-md-center">
-        <div class="col-md-5 col-lg-4 order-md-2 text-center">
-          <div class="animate-box">
-            <div class="wow slideInRight" data-wow-delay="1.5s"><img src="images/home-6-331x279.png" alt="" width="331" height="279"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-6 order-md-1">
-          <div class="wow fadeIn" data-wow-delay="1.6s">
-                  <div class="box-numeric unit unit-spacing-lg flex-column flex-sm-row">
-                    <div class="unit-left">
-                      <div class="box-numeric-num"><span>04</span></div>
-                    </div>
-                    <div class="unit-body">
-                      <h4>Once Again We Analyze And Check Everything</h4>
-                      <p>We meet, analyze and check the work we done on the project and make any necessary changes.</p>
-                    </div>
-                  </div>
-          </div>
-          <div class="arrow-block arrow-4 wow fadeIn" data-wow-delay="1.7s"><img src="images/arrow-4-270x139.png" alt="" width="270" height="139"/>
-          </div>
-        </div>
-      </div>
-      <div class="row row-30 justify-content-center">
-        <div class="col-md-5 col-lg-4 text-center">
-          <div class="animate-box">
-            <div class="wow slideInLeft" data-wow-delay="1.8s"><img src="images/home-6-255x268.png" alt="" width="255" height="268"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-6">
-          <div class="wow fadeIn" data-wow-delay="1.9s">
-                  <div class="box-numeric unit unit-spacing-lg flex-column flex-sm-row">
-                    <div class="unit-left">
-                      <div class="box-numeric-num"><span>05</span></div>
-                    </div>
-                    <div class="unit-body">
-                      <h4>We Finish The Project And Send It To The Customer</h4>
-                      <p>The project is completed and we give it to our customer. We also ask for customer’s feedback.</p>
-                    </div>
-                  </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Our work-->
-  <section class="section-md bg-gray-200 section-decoration-3">
-    <div class="container wow fadeIn" data-wow-delay="0.3s">
-      <div class="row row-30 justify-content-lg-between align-items-md-end text-center">
-        <div class="col-md-6 col-lg-5 text-md-left">
-          <h2>Recent projects we have worked on</h2>
-        </div>
-        <div class="col-md-6 text-md-right"><a class="button button-primary button-shadow" href="portfolio.html">all projects</a></div>
-        <div class="col-12">
-          <!-- Owl Carousel-->
-          <div class="owl-carousel" data-items="1" data-sm-items="2" data-lg-items="3" data-dots="false" data-nav="true" data-stage-padding="0" data-loop="true" data-autoplay="5000" data-margin="30" data-mouse-drag="false">
-            <div class="project-item"><img src="images/project-1-370x404.jpg" alt="" width="370" height="404"/>
-              <div class="project-item-caption context-dark">
-                <h2 class="project-item-title">Consulting Company “Impuls”</h2><a class="button-link" href="#"> <span>View site</span><span class="icon fa-long-arrow-right"></span></a>
-              </div>
-            </div>
-            <div class="project-item"><img src="images/project-2-370x404.jpg" alt="" width="370" height="404"/>
-              <div class="project-item-caption context-dark">
-                <h2 class="project-item-title">Travel Agency &quot;Tour Up&quot;</h2><a class="button-link" href="#"> <span>View site</span><span class="icon fa-long-arrow-right"></span></a>
-              </div>
-            </div>
-            <div class="project-item"><img src="images/project-3-370x404.jpg" alt="" width="370" height="404"/>
-              <div class="project-item-caption context-dark">
-                <h2 class="project-item-title">Restaurant &quot;Little Italy&quot;</h2><a class="button-link" href="#"> <span>View site</span><span class="icon fa-long-arrow-right"></span></a>
-              </div>
-            </div>
-            <div class="project-item"><img src="images/project-4-370x404.jpg" alt="" width="370" height="404"/>
-              <div class="project-item-caption context-dark">
-                <h2 class="project-item-title">Business News Portal</h2><a class="button-link" href="#"> <span>View site</span><span class="icon fa-long-arrow-right"></span></a>
-              </div>
-            </div>
-            <div class="project-item"><img src="images/project-5-370x404.jpg" alt="" width="370" height="404"/>
-              <div class="project-item-caption context-dark">
-                <h2 class="project-item-title">Car Repair Workshop &quot;Auto Quarter&quot;</h2><a class="button-link" href="#"> <span>View site</span><span class="icon fa-long-arrow-right"></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Contact form-->
-  <section class="section-lg bg-default section-decoration-2">
-    <div class="container">
-      <div class="row row-30 align-items-lg-center justify-content-center">
-        <div class="col-lg-6 text-center">
-          <div class="animate-box">
-            <div class="wow slideInLeft" data-wow-delay="0.2s"><img src="images/home-1-499x550.png" alt="" width="499" height="550"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="box-contact-form wow fadeIn" data-wow-delay="0.2s">
-            <h2>Get in touch with our team</h2>
-            <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-              <div class="row row-20">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                    <label class="form-label" for="contact-name">Your Name</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
-                    <label class="form-label" for="contact-phone">Phone</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <label class="form-label" for="contact-message">Your Message</label>
-                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="button button-sm button-primary" type="submit">send</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Subscribe section-->
+  <!-- Subscribe section -->
   <section class="section-md bg-gray-100 section-decoration-1" id="subscride">
     <div class="container">
       <div class="row row-30 justify-content-center">
@@ -447,3 +149,4 @@
     </div>
   </section>
 @endsection
+     
