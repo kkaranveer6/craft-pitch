@@ -62,8 +62,8 @@
                 <path d="M8.38523 28.0425C7.97861 27.8202 7.46751 27.9674 7.24363 28.3713C7.22099 28.4122 7.19364 28.4504 7.16221 28.4849C7.09935 28.5498 6.89278 28.7481 6.67818 28.9004C6.35263 29.1313 6.00135 29.2967 5.63404 29.3922C5.18496 29.5089 4.91622 29.965 5.03371 30.4111C5.13257 30.7863 5.47317 31.0347 5.84617 31.0347C5.91663 31.0347 5.98813 31.0259 6.0595 31.0074C6.62545 30.8603 7.16228 30.6087 7.6551 30.2592C7.97144 30.0348 8.39135 29.624 8.39423 29.6209C8.51917 29.4863 8.6276 29.3367 8.71647 29.1763C8.9402 28.7724 8.79191 28.2647 8.38523 28.0425Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">Web Design &amp; Branding</a></h4>
-            <p>A great brand combines design and messaging to evoke emotion in your customers and drive strategy.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
+            <h4 class="box-icon-title"><a href="single-service.html">Web Design &amp; Development</a></h4>
+            <p>Create and maintain a website that stands out from the crowd and gives a professional edge to your business.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -75,8 +75,8 @@
                 <path d="M19.7644 1.08046C19.9824 0.303056 20.8189 -0.158287 21.6326 0.0500167C22.4464 0.25832 22.9293 1.05739 22.7113 1.83479L16.2364 24.9195C16.0183 25.6969 15.1819 26.1583 14.3681 25.95C13.5544 25.7417 13.0714 24.9426 13.2895 24.1652L19.7644 1.08046Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">Graphic Design</a></h4>
-            <p>Rich experience plus unlimited imagination create our successful service discovered by clients.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
+            <h4 class="box-icon-title"><a href="single-service.html">eCommerce Development</a></h4>
+            <p>Make your goods and services accessible to more customers and see your business reach new levels.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
@@ -87,8 +87,8 @@
                 <path d="M18.0037 10.2277C13.7171 10.2277 10.2352 13.7096 10.2352 17.9962C10.2352 22.2829 13.7171 25.7648 18.0037 25.7648C22.2902 25.7648 25.7721 22.2829 25.7721 17.9962C25.7721 13.7096 22.2902 10.2277 18.0037 10.2277ZM18.0037 23.7343C14.8376 23.7343 12.2656 21.1623 12.2656 17.9962C12.2656 14.8302 14.8376 12.2582 18.0037 12.2582C21.1697 12.2582 23.7417 14.8302 23.7417 17.9962C23.7417 21.1623 21.1697 23.7343 18.0037 23.7343Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">Video Production</a></h4>
-            <p>Creating and handling professional video is our strong point. It plays a major role in your digital business strategy.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
+            <h4 class="box-icon-title"><a href="single-service.html">Mobile Apps Development</a></h4>
+            <p>With a mobile app, your business will reach even more customers and thrive in the age of the smartphone.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -101,7 +101,7 @@
                 <path d="M23.8121 6.86957L19.5567 2.92638C19.117 2.51873 18.4504 2.56873 18.0681 3.03737C17.6858 3.50614 17.7325 4.21653 18.1722 4.62418L20.429 6.71542C13.7681 7.64405 9.82424 11.3545 7.63176 14.4907C5.71139 17.2377 4.81358 19.9434 4.45309 21.2881C1.94958 21.6001 0 23.8738 0 26.6251C0 29.5887 2.26194 32 5.04218 32C7.82242 32 10.0845 29.5888 10.0845 26.6251C10.0845 24.2393 8.6183 22.2128 6.59636 21.5127C6.97612 20.2337 7.79867 17.9944 9.37503 15.7625C12.1193 11.8771 15.9315 9.58889 20.7273 8.9382L18.6245 11.5168C18.2422 11.9856 18.2888 12.696 18.7286 13.1036C18.9284 13.2888 19.1749 13.3795 19.4204 13.3795C19.7153 13.3795 20.0086 13.2485 20.2172 12.9926L23.9164 8.45638C24.2987 7.98748 24.252 7.27722 23.8121 6.86957ZM7.97406 26.6251C7.97406 28.3484 6.65891 29.7504 5.04218 29.7504C3.42558 29.7504 2.11042 28.3484 2.11042 26.6251C2.11042 24.9018 3.42558 23.4999 5.04218 23.4999C6.65879 23.4999 7.97406 24.9018 7.97406 26.6251Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">SEO</a></h4>
+            <h4 class="box-icon-title"><a href="single-service.html">Digital Marketting Services</a></h4>
             <p>We provide everything your site needs to perform at its highest capabilities on the major search engines.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
@@ -113,8 +113,8 @@
                 <path d="M36 16.016C35.9849 12.1159 34.5561 8.35944 31.9782 5.43439C28.924 1.98026 24.5393 0 19.9278 0C19.3608 0 18.9072 0.453496 18.9072 1.02037V16.0689C18.9072 16.6357 19.3608 17.0892 19.9278 17.0892H34.9795C35.5465 17.0892 36 16.6357 36 16.0689C36 16.0538 36 16.0386 36 16.016ZM20.9484 15.0561V2.08608C24.5922 2.35062 28.0093 4.03611 30.4436 6.79488C32.4847 9.10015 33.6943 12.0025 33.9211 15.0561H20.9484Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">Digital Marketing</a></h4>
-            <p>With digital marketing, your business can expand into new areas and achieve tremendous accomplishments.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
+            <h4 class="box-icon-title"><a href="single-service.html">Brand Identity Development</a></h4>
+            <p>Develop your brand into a polished and effective business that will help set you apart from the competition.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
@@ -124,8 +124,8 @@
                 <path d="M36 4.18577V13.9895C36 16.3108 34.0927 18.1944 31.714 18.1944H20.1388C19.9125 18.1944 19.7261 18.1931 19.5702 18.1899C19.4069 18.1866 19.223 18.1854 19.1513 18.1931C19.0766 18.2415 18.8936 18.4051 18.7171 18.5638C18.6472 18.6266 18.5681 18.6957 18.4827 18.7717L15.2078 21.6846C14.9465 21.9171 14.5601 21.9773 14.2366 21.8382C13.9131 21.6989 13.686 21.3863 13.686 21.0413V11.807H4.33587C2.94129 11.807 1.78512 12.9222 1.78512 14.2829V24.0866C1.78512 25.4474 2.94139 26.5173 4.33587 26.5173H17.2655C17.4882 26.5173 17.6964 26.6171 17.8609 26.7636L20.5289 29.1641V20.8858C20.5289 20.4047 20.9285 20.0148 21.4215 20.0148C21.9145 20.0148 22.314 20.4047 22.314 20.8858V31.1383C22.314 31.4833 22.1117 31.7912 21.7881 31.9305C21.6724 31.9804 21.5562 32 21.4345 32C21.2159 32 21.0003 31.9124 20.8326 31.763L16.9195 28.2592H4.33587C1.95709 28.2592 0 26.4079 0 24.0865V14.2829C0 11.9616 1.95709 10.065 4.33587 10.065H13.686V4.18577C13.686 1.86444 15.658 0 18.0368 0H31.7141C34.0927 0 36 1.86444 36 4.18577ZM34.2149 4.18577C34.2149 2.82496 33.1084 1.74201 31.714 1.74201H18.0368C16.6423 1.74201 15.4711 2.82496 15.4711 4.18577V10.9441V19.0671L17.2656 17.4845C17.3487 17.4105 17.4419 17.3427 17.5098 17.2815C18.3293 16.5447 18.5389 16.4269 19.6078 16.4484C19.7536 16.4514 19.9272 16.4524 20.1388 16.4524H31.714C33.1084 16.4524 34.2149 15.3503 34.2149 13.9896V4.18577Z"></path>
               </svg>
             </div>
-            <h4 class="box-icon-title"><a href="single-service.html">Infographics</a></h4>
-            <p>Turn your data into captivating artwork that will keep your audience engaged. Our team can help you with it.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
+            <h4 class="box-icon-title"><a href="single-service.html">Customized Solutions</a></h4>
+            <p>Tailor a unique digital business campaign that suits your business and meets all your individual needs.</p><a class="button-link" href="single-service.html"><span>read more</span><span class="icon fa-long-arrow-right"></span></a>
           </div>
         </div>
       </div>
