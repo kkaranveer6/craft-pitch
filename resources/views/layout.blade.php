@@ -41,16 +41,17 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active">
+                      <li class="rd-nav-item {{ Request::path() === '/' ? 'active' : '' }}">
                         <a class="rd-nav-link" href="/">Home</a>
                       </li>
-                      <li class="rd-nav-item">
+                      <li class="rd-nav-item {{ Request::path() === 'about' ? 'active' : '' }}">
                         <a class="rd-nav-link" href="/about">About Us</a>
                       </li>
-                      <li class="rd-nav-item">
+                      <li class="rd-nav-item {{ Request::path() === 'services' ? 'active' : '' }}">
                         <a class="rd-nav-link" href="/services">Services</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contacts</a>
+                      <li class="rd-nav-item {{ Request::path() === 'contact' ? 'active' : '' }}">
+                        <a class="rd-nav-link" href="/contact">Contacts</a>
                       </li>
                     </ul>
                   </div>
